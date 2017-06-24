@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B2E7B611EFE051700130CC5 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B2E7B601EFE051700130CC5 /* art.scnassets */; };
+		2B2E7B631EFE083300130CC5 /* SpaceShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2E7B621EFE083300130CC5 /* SpaceShip.swift */; };
 		2BE5A84C1EFDE04C00990CCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE5A84B1EFDE04C00990CCD /* AppDelegate.swift */; };
 		2BE5A84E1EFDE04C00990CCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE5A84D1EFDE04C00990CCD /* ViewController.swift */; };
 		2BE5A8511EFDE04C00990CCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE5A84F1EFDE04C00990CCD /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B2E7B601EFE051700130CC5 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = art.scnassets; path = "../../../../../Downloads/Simple-ARKit-Game-master/ARKitGame/art.scnassets"; sourceTree = "<group>"; };
+		2B2E7B621EFE083300130CC5 /* SpaceShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceShip.swift; sourceTree = "<group>"; };
 		2BE5A8481EFDE04C00990CCD /* ARKitGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BE5A84B1EFDE04C00990CCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BE5A84D1EFDE04C00990CCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +60,9 @@
 			children = (
 				2BE5A84B1EFDE04C00990CCD /* AppDelegate.swift */,
 				2BE5A84D1EFDE04C00990CCD /* ViewController.swift */,
+				2B2E7B621EFE083300130CC5 /* SpaceShip.swift */,
 				2BE5A84F1EFDE04C00990CCD /* Main.storyboard */,
+				2B2E7B601EFE051700130CC5 /* art.scnassets */,
 				2BE5A8521EFDE04C00990CCD /* Assets.xcassets */,
 				2BE5A8541EFDE04C00990CCD /* LaunchScreen.storyboard */,
 				2BE5A8571EFDE04C00990CCD /* Info.plist */,
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BE5A8561EFDE04C00990CCD /* LaunchScreen.storyboard in Resources */,
+				2B2E7B611EFE051700130CC5 /* art.scnassets in Resources */,
 				2BE5A8531EFDE04C00990CCD /* Assets.xcassets in Resources */,
 				2BE5A8511EFDE04C00990CCD /* Main.storyboard in Resources */,
 			);
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B2E7B631EFE083300130CC5 /* SpaceShip.swift in Sources */,
 				2BE5A84E1EFDE04C00990CCD /* ViewController.swift in Sources */,
 				2BE5A84C1EFDE04C00990CCD /* AppDelegate.swift in Sources */,
 			);
@@ -312,6 +320,7 @@
 				2BE5A85C1EFDE04C00990CCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
